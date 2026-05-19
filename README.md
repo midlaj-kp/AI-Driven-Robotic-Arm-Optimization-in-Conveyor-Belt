@@ -1,6 +1,6 @@
 # AI Driven Robotic Arm Optimization in Conveyor Belt
 
-![Project Banner](placeholder-image-banner.png)
+![Project Banner](banner.png)
 
 ## Overview
 
@@ -59,7 +59,7 @@ Operators manage the entire process through a sleek, web-based dashboard built w
 
 | Web Dashboard | Hardware Setup |
 | ------------- | -------------- |
-| ![Frontend Dashboard](placeholder-dashboard-screenshot.png) | ![Robotic Arm Setup](placeholder-robotic-arm-photo.png) |
+| ![Frontend Dashboard](ui.png) | ![Robotic Arm Setup](arm.png) |
 | *Real-time React dashboard with camera feed & system logs.* | *Physical robotic arm and conveyor belt hardware.* |
 
 ---
@@ -124,7 +124,7 @@ Visit `http://localhost:5173` (or the port specified by Vite) in your browser to
 2. The `serial_service.py` is configured to communicate with the hardware automatically. Update the COM port configurations in `backend/app/core/config.py` if needed.
 3. Use the **Frontend Control Panel** to manually jog the arm and verify the connection.
 
-![Arm Calibration](placeholder-calibration-photo.png)
+![Arm Calibration](control.png)
 
 ---
 
