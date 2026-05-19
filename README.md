@@ -1,6 +1,6 @@
 # AI Driven Robotic Arm Optimization in Conveyor Belt
 
-![Project Banner](banner.png)
+![Project Banner](assets/banner.png)
 
 ## Overview
 
@@ -8,7 +8,7 @@
 
 This project uses advanced object detection (YOLO/Caffe models) to inspect products, read QR codes, and intelligently guide a serial-controlled robotic arm to optimize sorting processes.
 
-![System Architecture](placeholder-image-architecture.png)
+![System Architecture](assets/diagram.png)
 
 ## Features
 
@@ -59,7 +59,7 @@ Operators manage the entire process through a sleek, web-based dashboard built w
 
 | Web Dashboard | Hardware Setup |
 | ------------- | -------------- |
-| ![Frontend Dashboard](ui.png) | ![Robotic Arm Setup](arm.png) |
+| ![Frontend Dashboard](assets/ui.png) | ![Robotic Arm Setup](assets/arm.png) |
 | *Real-time React dashboard with camera feed & system logs.* | *Physical robotic arm and conveyor belt hardware.* |
 
 ---
@@ -124,7 +124,7 @@ Visit `http://localhost:5173` (or the port specified by Vite) in your browser to
 2. The `serial_service.py` is configured to communicate with the hardware automatically. Update the COM port configurations in `backend/app/core/config.py` if needed.
 3. Use the **Frontend Control Panel** to manually jog the arm and verify the connection.
 
-![Arm Calibration](control.png)
+![Arm Calibration](assets/control.png)
 
 ---
 
